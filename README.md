@@ -4,14 +4,14 @@
 
 ## Overview
 
-This Jupyter Notebook provides an interactive dashboard for comparing the performance of different hedging strategies for a chosen commodity. Users can upload their own historical price data or potentially fetch data from online sources (if implemented). The dashboard calculates key performance metrics and presents interactive visualizations to help understand the trade-offs between various hedging approaches, such as risk reduction and cost.
+This Jupyter Notebook provides an interactive dashboard for comparing the performance and effectiveness of various commodity hedging strategies for a chosen commodity. Users can upload their own historical price data or potentially fetch data from reputable sources like **The World Bank - Data** and **USDA (United States Department of Agriculture)** for agricultural commodities. The dashboard calculates key performance metrics and presents interactive visualizations to help understand the trade-offs between various hedging approaches, such as risk reduction and cost.
 
 ## Core Features
 
 * **Interactive Data Input:**
     * Allows users to select a commodity of interest.
     * Enables uploading historical price data (e.g., CSV files containing spot and futures prices).
-    * *(Optional: Functionality to fetch data from online sources like Yahoo Finance or Quandl)*
+    * *(Optional: Functionality to fetch data from online sources like Yahoo Finance, Quandl, **The World Bank - Data**, and **USDA**)*
     * Provides controls to select the historical period for analysis.
     * Offers input fields for adjusting parameters of different hedging strategies (e.g., fixed hedge ratio).
 * **Implementation of Common Hedging Strategies:**
@@ -78,7 +78,7 @@ This Jupyter Notebook provides an interactive dashboard for comparing the perfor
 1.  **Run the Notebook cells sequentially.**
 2.  **Data Input:**
     * Select a commodity (if this functionality is implemented).
-    * Use the file upload widget to load your historical price data in CSV format. Ensure your CSV file contains columns for spot prices and the relevant futures contract prices, with a consistent date/time index.
+    * Use the file upload widget to load your historical price data in CSV format. Ensure your CSV file contains columns for spot prices and the relevant futures contract prices, with a consistent date/time index. Consider sourcing reliable data from platforms like **SquareCO** or directly from exchanges and data providers. For agricultural commodities, **USDA** provides extensive historical data. **The World Bank - Data** also offers a broad range of commodity price data.
     * Adjust the date range for analysis using the provided controls.
     * Enter the desired parameters for each hedging strategy (e.g., the fixed hedge ratio).
 3.  **Hedging Strategy Selection:** The notebook will automatically calculate the performance for the implemented hedging strategies based on the input data and parameters.
@@ -96,13 +96,13 @@ The CSV file you upload should ideally have the following columns (names are cas
 * `Futures_Price_Near`: Historical prices of the nearby futures contract used for hedging.
 * *(Optional: `Futures_Price_Far`: For basis risk hedging or futures roll cost analysis)*
 
-Ensure that the date column is in a format that Pandas can parse.
+Ensure that the date column is in a format that Pandas can parse. You might find relevant historical data on platforms like **SquareCO**, **The World Bank - Data**, and the **USDA** websites.
 
 ## Assumptions
 
 * The calculations for hedging cost are simplified and may not reflect actual brokerage fees or the complexities of futures contract rolling.
 * The Minimum Variance Hedge calculation uses a rolling window of historical data, and the choice of window size can impact the results.
-* The accuracy of the analysis depends on the quality and relevance of the input data.
+* The accuracy of the analysis depends on the quality and relevance of the input data, which can be sourced from providers like **SquareCO**, **The World Bank - Data**, and the **USDA**.
 
 ## Contributing
 
