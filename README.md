@@ -4,15 +4,14 @@
 
 ## Overview
 
-This Jupyter Notebook provides an interactive dashboard for comparing the performance and effectiveness of various commodity hedging strategies for a chosen commodity. Users can upload their own historical price data or potentially fetch data from reputable sources like **The World Bank - Data** and **USDA (United States Department of Agriculture)** for agricultural commodities. The dashboard calculates key performance metrics and presents interactive visualizations to help understand the trade-offs between various hedging approaches, such as risk reduction and cost.
+An interactive dashboard for evaluating the efficacy and performance of different commodity hedge strategies for a selected commodity is offered by this Jupyter Notebook. For agricultural commodities, users have the option of gathering data from reliable sources such as **The World Bank - Data** and **USDA (United States Department of Agriculture)**, or they can upload their own historical pricing data. To assist in understanding the trade-offs between different hedging strategies, such as risk reduction and cost, the dashboard computes important performance data and displays interactive visualizations.
 
 ## Core Features
 
 * **Interactive Data Input:**
-    * Allows users to select a commodity of interest.
-    * Enables uploading historical price data (e.g., CSV files containing spot and futures prices).
-    * *(Optional: Functionality to fetch data from online sources like Yahoo Finance, Quandl, **The World Bank - Data**, and **USDA**)*
-    * Provides controls to select the historical period for analysis.
+    * Enables users to choose a desired commodity.
+    * Enables the uploading of past price information (such as CSV files with spot and futures prices).
+    * The ability to access data from web sources such as Quandl, Yahoo Finance, **The World Bank - Data**, and **USDA** is optional.
     * Offers input fields for adjusting parameters of different hedging strategies (e.g., fixed hedge ratio).
 * **Implementation of Common Hedging Strategies:**
     * **No Hedging:** Serves as a baseline for comparison.
