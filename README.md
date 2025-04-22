@@ -4,7 +4,7 @@
 
 ## Overview
 
-An interactive dashboard for evaluating the efficacy and performance of different commodity hedge strategies for a selected commodity is offered by this Jupyter Notebook. For agricultural commodities, users have the option of gathering data from reliable sources such as **The World Bank - Data** and **USDA (United States Department of Agriculture)**, or they can upload their own historical pricing data. To assist in understanding the trade-offs between different hedging strategies, such as risk reduction and cost, the dashboard computes important performance data and displays interactive visualizations.
+This Jupyter Notebook offers an interactive dashboard for evaluating the efficacy and performance of different commodity hedge strategies for a selected commodity. For agricultural commodities, users have the option of gathering data from reliable sources such as The World Bank—Data and USDA (United States Department of Agriculture), or they can upload their own historical pricing data. To assist in understanding the trade-offs between different hedging strategies, such as risk reduction and cost, the dashboard computes important performance data and displays interactive visualizations.
 
 ## Core Features
 
