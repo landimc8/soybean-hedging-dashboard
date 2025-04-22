@@ -109,4 +109,4 @@ Contributions to this project are welcome! If you have suggestions for improveme
 
 ## License
 
-[Specify the license under which the project is released (e.g., MIT License)]
+[MIT License)]
