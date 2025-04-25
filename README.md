@@ -26,7 +26,7 @@ This Jupyter Notebook offers an interactive dashboard for evaluating the efficac
     * Conditional Value at Risk (CVaR)
     * Cost of Hedging (estimation based on futures roll)
     * *(Optional: Sharpe Ratio, Maximum Drawdown)*
-* **Interactive Visualizations (using Plotly or Bokeh):**
+* **Interactive Visualizations (using Streamlit or Plotly):**
     * **Price Series Comparison:** Line plots of spot and futures prices, and hedged/unhedged portfolio values.
     * **Volatility Comparison:** Bar charts or box plots showing volatility across strategies.
     * **Return Distribution:** Histograms or kernel density estimates of returns.
