@@ -52,7 +52,7 @@ This Jupyter Notebook offers an interactive dashboard for evaluating the efficac
 * **Jupyter Notebook**
 * **Required Python Libraries:**
     ```bash
-    pip install pandas numpy matplotlib seaborn plotly ipywidgets
+    pip install pandas numpy plotly ipywidgets ipyfilechooser
     ```
     *(If you plan to fetch online data):*
     ```bash
