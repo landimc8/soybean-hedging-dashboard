@@ -103,10 +103,6 @@ Ensure that the date column is in a format that Pandas can parse. You might find
 * The Minimum Variance Hedge calculation uses a rolling window of historical data, and the choice of window size can impact the results.
 * The accuracy of the analysis depends on the quality and relevance of the input data, which can be sourced from providers like **SquareCO**, **The World Bank - Data**, and the **USDA**.
 
-## Contributing
-
-Contributions to this project are welcome! If you have suggestions for improvements, new hedging strategies, or bug fixes, please feel free to submit a pull request or open an issue on the repository.
-
 ## License
 
 [MIT License)]
